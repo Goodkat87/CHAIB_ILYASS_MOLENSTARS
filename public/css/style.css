@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "OswalMedium";
+    src: url(./../assets/fonts/OswaldMedium.ttf);
+}
+@font-face {
+    font-family: "OswalRegular";
+    src: url(./../assets/fonts/OswaldRegular.ttf);
+}
+@font-face {
+    font-family: "RobotoBold";
+    src: url(./../assets/fonts/RobotoBold.ttf);
+}
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(./../assets/fonts/RobotoMedium.ttf);
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(./../assets/fonts/RobotoRegular.ttf);
+}
