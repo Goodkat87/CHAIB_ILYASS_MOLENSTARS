@@ -475,6 +475,7 @@ button:hover, #contactDarkBlue:hover{
 
 #Card div{
     padding: 20px;
+    margin-bottom: 10px;
     background-color: #17256e;
     border-radius: 20px;
     width: max-content;
@@ -493,4 +494,13 @@ button:hover, #contactDarkBlue:hover{
     font-size: 14px;
     font-family: RobotoRegular ;
     opacity: 50%;
+}
+
+#Card div:hover img{
+    transition: 1s;
+    transform: translateY(-10px);
+}
+
+#Card div:hover{
+    border: 1px #0bd2ef solid;
 }
