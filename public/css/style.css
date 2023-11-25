@@ -305,14 +305,14 @@ button:hover, #contactDarkBlue:hover{
     height: auto;
 }
 
-.sliders img:hover{
+.sliders:hover{
+    background-color: #0bd2ef;
+    
+}
+
+.sliders:hover img{
+    filter: brightness(100);
     transition: 1s;
     transition-timing-function: ease;
     transform: translateY(-10px);
-    filter: brightness(100);
-}
-
-.sliders:hover{
-    background-color: #0bd2ef;
-
 }
