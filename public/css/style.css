@@ -55,6 +55,7 @@ header div{
 nav{
     width: 69%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -87,10 +88,8 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2em;
     margin-bottom: 100px;
     margin-top: 88px;
-    padding-left: 100px;
 }
 
 .left{
@@ -141,4 +140,104 @@ button{
 
 button:hover, #contactDarkBlue:hover{
     background-color: transparent;
+}
+
+@media (max-width:769px) {
+
+    #TitleOfHeader h1{
+        color: white;
+        font-family: RobotoBold;
+        font-size: 40px;
+    } 
+    
+    #TitleOfHeader p{
+        color: white;
+        font-size: 14px;
+        font-family: RobotoRegular ;
+    } 
+
+    img[alt="banner-right"]{
+        width: 400px;
+        height: auto;
+    }
+    
+}
+@media (max-width:426px) {
+
+    #TitleOfHeader h1{
+        color: white;
+        font-family: RobotoBold;
+        font-size: 30px;
+    } 
+    
+    #TitleOfHeader p{
+        color: white;
+        font-size: 10px;
+        font-family: RobotoRegular ;
+    } 
+
+    img[alt="banner-right"]{
+        width: 350px;
+        height: auto;
+    }
+    
+    nav ul{
+        width: 100%;
+        padding-left: 150px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        font-family: RobotoRegular;
+        color: white;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    img[alt="logo"]{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width:376px) {
+
+    #TitleOfHeader h1{
+        color: white;
+        font-family: RobotoBold;
+        font-size: 25px;
+    } 
+    
+    #TitleOfHeader p{
+        color: white;
+        font-size: 10px;
+        font-family: RobotoRegular ;
+    } 
+
+    img[alt="banner-right"]{
+        width: 250px;
+        height: auto;
+    }
+    
+    nav ul{
+        width: 100%;
+        padding-left: 150px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        font-family: RobotoRegular;
+        color: white;
+        font-size: 13px;
+        align-items: center;
+    }
+
+    img[alt="logo"]{
+        width: 100px;
+        height: 100px;
+    }
+
+    #HeaderTop button{
+        width: 100px;
+        height: 30px;
+    }
 }
