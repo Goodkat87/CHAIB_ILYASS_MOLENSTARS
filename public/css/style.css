@@ -371,3 +371,58 @@ button:hover, #contactDarkBlue:hover{
     list-style: url(./../assets/img/check.png);
     padding-left: 23px;
 }
+
+/* responsive section whoarewe */
+
+@media (max-width: 426px) {
+    #WhoLeft img{
+        width: 350px;
+        height: 300px;
+    }
+
+    #WhoRight h1{
+        color: white;
+        font-family: RobotoBold;
+        font-size: 33px;
+    }
+    .WhoTextContent{
+        color: white;
+        font-size: 12px;
+        font-family: RobotoRegular ;
+        opacity: 50%;
+    }
+    
+    #WhoSubTitle{
+        color: #4599c7;
+        font-family: RobotoRegular;
+        font-size: 12px;
+        margin-bottom: 13px;
+    }
+}
+
+
+@media (max-width: 376px) {
+    #WhoLeft img{
+        width: 350px;
+        height: 300px;
+    }
+
+    #WhoRight h1{
+        color: white;
+        font-family: RobotoBold;
+        font-size: 30px;
+    }
+    .WhoTextContent{
+        color: white;
+        font-size: 10px;
+        font-family: RobotoRegular ;
+        opacity: 50%;
+    }
+    
+    #WhoSubTitle{
+        color: #4599c7;
+        font-family: RobotoRegular;
+        font-size: 10px;
+        margin-bottom: 13px;
+    }
+}
