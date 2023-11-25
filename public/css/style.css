@@ -316,3 +316,58 @@ button:hover, #contactDarkBlue:hover{
     transition-timing-function: ease;
     transform: translateY(-10px);
 }
+
+/* WhoWeAre Section*/
+
+#WhoWeAre{
+    padding-top: 100px;
+    width: 100%;
+    height: max-content;
+    background-color: #0a1650;
+    background-image: url(./../assets/img/dots-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+#WhoLeft{
+    width: max-content;
+    height: max-content;
+}
+#WhoLeft img{
+    width: 550px;
+    height: 500px;
+}
+
+#WhoRight{
+    width: max-content;
+    height: max-content;
+}
+
+#WhoRight h1{
+    color: white;
+    font-family: RobotoBold;
+    font-size: 51px;
+}
+.WhoTextContent{
+    color: white;
+    font-size: 14px;
+    font-family: RobotoRegular ;
+    opacity: 50%;
+}
+
+#WhoSubTitle{
+    color: #4599c7;
+    font-family: RobotoRegular;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+#WhoRight ul{
+    list-style: url(./../assets/img/check.png);
+    padding-left: 23px;
+}
