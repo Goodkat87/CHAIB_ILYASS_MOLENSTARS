@@ -28,14 +28,20 @@ header{
     padding-top: 40px;
     width: 100%;
     height: max-content;
+    background-color: darkblue;
     background-image: url(./../assets/img/banner-overlay-img.png);
-    background-size: cover;
+    background-size: cover ;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
 }
+
 
 header div{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #logo{
@@ -57,6 +63,7 @@ nav ul{
     padding-left: 150px;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 45px;
     font-family: RobotoRegular;
     color: white;
@@ -64,11 +71,69 @@ nav ul{
     align-items: center;
 }
 
-li button{
+button{
     width: 140px;
     height: 50px;
     background-color: #0bd2ef;
     border: none;
     border-radius: 40px;
     color: white;
+}
+
+#HeaderBottom{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 100px;
+    margin-top: 88px;
+    padding-left: 100px;
+}
+
+.left{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.right{
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+
+#HeaderButton{
+    display: flex;
+    gap: 1em;
+}
+
+#TitleOfHeader{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#TitleOfHeader h1{
+    color: white;
+    font-family: RobotoBold;
+    font-size: 53px;
+} 
+
+#TitleOfHeader p{
+    color: white;
+    font-size: 14px;
+    font-family: RobotoRegular ;
+} 
+
+#contactDarkBlue{
+    background-color: #2152a1;
 }
