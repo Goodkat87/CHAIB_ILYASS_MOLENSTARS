@@ -426,3 +426,71 @@ button:hover, #contactDarkBlue:hover{
         margin-bottom: 13px;
     }
 }
+
+/* WhatWeDo section */
+
+#WhatWeDo{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background-color: #122061;
+    background-image: url(./../assets/img/overly-img.png);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+#WhatWeDoTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#WhatWeDoTitle h1{
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: RobotoBold;
+    font-size: 51px;
+}
+
+#WhatWeDoTitle p{
+    color: #4599c7;
+    font-family: RobotoRegular;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+
+#Card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+#Card div{
+    padding: 20px;
+    background-color: #17256e;
+    border-radius: 20px;
+    width: max-content;
+    height: 250px;
+}
+
+#Card div h5{
+    font-size: 15px;
+    color: white;
+    font-family:RobotoRegular;
+    line-height: 25px;
+}
+
+#Card div p{
+    color: white;
+    font-size: 14px;
+    font-family: RobotoRegular ;
+    opacity: 50%;
+}
