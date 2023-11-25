@@ -504,3 +504,40 @@ button:hover, #contactDarkBlue:hover{
 #Card div:hover{
     border: 1px #0bd2ef solid;
 }
+
+@media (max-width:769px) {
+    #WhatWeDoTitle h1{
+        color: white;
+        margin-top: 0;
+        padding-top: 0;
+        font-family: RobotoBold;
+        font-size: 41px;
+    }
+}
+
+@media (max-width:426px) {
+    #WhatWeDoTitle h1{
+        color: white;
+        margin-top: 0;
+        padding-top: 0;
+        font-family: RobotoBold;
+        font-size: 23px;
+    }
+
+    #WhatWeDoTitle p{
+        color: #4599c7;
+        font-family: RobotoRegular;
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width:376px) {
+    #WhatWeDoTitle h1{
+        color: white;
+        margin-top: 0;
+        padding-top: 0;
+        font-family: RobotoBold;
+        font-size: 20px;
+    }
+}
