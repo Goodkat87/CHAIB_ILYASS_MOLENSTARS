@@ -323,6 +323,7 @@ button:hover, #contactDarkBlue:hover{
 
 #WhoWeAre{
     padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
     height: max-content;
     background-color: #0a1650;
