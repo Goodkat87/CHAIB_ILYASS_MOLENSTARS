@@ -431,3 +431,9 @@ input[placeholder="Phone"]{
 input[placeholder="Message"]{
     padding-left: 20px;
 }
+
+#message{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
