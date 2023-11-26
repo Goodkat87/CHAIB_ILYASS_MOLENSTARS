@@ -41,26 +41,14 @@ body{
 
 #section6-left-emplacement{
     background-color: #0B1650;
+    background-image: url(./../assets/img/dots-img2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30%;
     width: 50%;
     display: flex;
     justify-content: right;
     align-items: center;
-}
-
-#img-dots{
-    background-color: #0B1650;
-    transform: rotate(180deg);
-}
-
-#img-dots-bis{
-    position: absolute; bottom: 120px;
-    transform: rotate(180deg);
-
-}
-
-#img-dots-div{
-    display: flex;
-    justify-content: left;
 }
 
 #section8{
@@ -137,11 +125,21 @@ body{
   }
 
   #creative{
-    position: absolute; top: 495px; right: 0px;
     height: 305px;
     width: 475px;
     background-color: #34D3EF;
     border-top-left-radius: 10px;
+    
+}
+
+#section6-right{
+    width: 50%;
+    background-image: url(./../assets/img/service-right-bg-img.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 #creative-flex p:nth-of-type(1){
@@ -284,8 +282,12 @@ body{
 }
 
 #section8{
+    padding-top: 100px;
+    background-image: url(./../assets/img/dots-img2.png);
+    background-repeat: no-repeat;
+    background-position: left;
     background-color: #0B1650;
-    height: 790px;
+    height: max-content;
     width: 100%;
     display: flex;
 }
@@ -313,7 +315,12 @@ body{
 
 #img-blog1 {
     position: relative;
-    overflow: hidden; /* Empêche le contenu de déborder */
+    overflow: hidden; /*Empêche le contenu de déborder*/
+  }
+
+  #img-blog1:hover img, #img-blog2:hover img{
+    transition: 1s;
+    transform: rotateZ(2deg);
   }
 
   #img-blog2 {
@@ -371,6 +378,10 @@ body{
     background-color: #0B1650;
     height: 650px;
     width: 100%;
+    background-image: url(./../assets/img/dots-img.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
 }
 
 #section9-title{
@@ -386,6 +397,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 
 
@@ -526,9 +538,4 @@ input[placeholder="Message"]{
     position: absolute;
     padding-left: 240px;
     padding-top: 15px;
-}
-
-input[type="checkbox"]{
-    background-color: red;
-    border: 2px solid red;
 }
