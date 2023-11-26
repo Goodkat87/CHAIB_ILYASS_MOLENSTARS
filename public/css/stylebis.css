@@ -464,12 +464,14 @@ input[placeholder="Message"]{
 
 #footer-end{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: row;
     justify-content: center;
     color: #5369AB;
     font-family: RobotoRegular;
     font-size: 15px;
+    height: 70px;
+    position: relative; top: 570px; right: 710px;
 }
 
 #border-foot{
@@ -477,5 +479,56 @@ input[placeholder="Message"]{
     width: 100%;
     position: absolute;
     display: flex;
-    margin-top: 580px;
+    margin-top: 565px;
+}
+
+#footer-start{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 130px;
+    padding-left: 330px
+
+}
+
+#logo-svg{
+    display: flex;
+    gap: 25px;
+}
+
+#footer-p{
+    font-family: RobotoRegular;
+    color: #5369AB;
+}
+
+#footer-h1{
+    color: white;
+    font-family: RobotoMedium;
+    font-size: 18px;
+}
+
+#newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#email-checkbox-footer{
+    height: 45px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #1F2D6F;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+#submit-img{
+    position: absolute;
+    padding-left: 240px;
+    padding-top: 15px;
+}
+
+input[type="checkbox"]{
+    background-color: red;
+    border: 2px solid red;
 }
