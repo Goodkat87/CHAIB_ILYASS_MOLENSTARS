@@ -451,3 +451,12 @@ input[placeholder="Message"]{
     padding-top: 130px;
 
 }
+
+#background-footer{
+    background-image: url(../assets/img/overly-img.png);
+    background-position: center;
+    background-color: #121F61;
+    height: 640px;
+    width: 100%;
+    display: flex;
+}
