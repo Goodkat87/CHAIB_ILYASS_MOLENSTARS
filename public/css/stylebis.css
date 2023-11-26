@@ -369,7 +369,7 @@ body{
 #section9{
     margin-top: -14px;
     background-color: #0B1650;
-    height: 790px;
+    height: 650px;
     width: 100%;
 }
 
@@ -436,4 +436,18 @@ input[placeholder="Message"]{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+#img-dots-form{
+    display: flex;
+    justify-content: right;
+    margin-top: -320px;
+}
+
+#deplacement-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 130px;
+
 }
