@@ -379,3 +379,55 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#form-Name{
+    background-color: #0B1650;
+    border: 2px solid #15245E;
+    height: 38px;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+
+::placeholder{
+    color: #5869AC;
+    
+}
+
+#first3-form{
+    display: flex;
+    gap: 25px;
+}
+
+#form-Name-bis{
+    background-color: #0B1650;
+    border: 2px solid #15245E;
+    height: 100px;
+    width: 1002px;
+    border-radius: 5px;
+}
+
+input[placeholder="Name"]{
+    padding-left: 20px;
+}
+
+input[placeholder="Email"]{
+    padding-left: 20px;
+}
+
+input[placeholder="Phone"]{
+    padding-left: 20px;
+}
+
+input[placeholder="Message"]{
+    padding-left: 20px;
+}
