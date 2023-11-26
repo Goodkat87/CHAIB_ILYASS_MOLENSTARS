@@ -1,0 +1,534 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "OswalMedium";
+    src: url(./../assets/fonts/OswaldMedium.ttf);
+}
+@font-face {
+    font-family: "OswalRegular";
+    src: url(./../assets/fonts/OswaldRegular.ttf);
+}
+@font-face {
+    font-family: "RobotoBold";
+    src: url(./../assets/fonts/RobotoBold.ttf);
+}
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(./../assets/fonts/RobotoMedium.ttf);
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(./../assets/fonts/RobotoRegular.ttf);
+}
+
+
+#section6-right{
+    background-size: cover;
+    display: flex;
+
+}
+
+#section6{
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+#section6-left-emplacement{
+    background-color: #0B1650;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#img-dots{
+    background-color: #0B1650;
+    transform: rotate(180deg);
+}
+
+#img-dots-bis{
+    position: absolute; bottom: 120px;
+    transform: rotate(180deg);
+
+}
+
+#img-dots-div{
+    display: flex;
+    justify-content: left;
+}
+
+#section8{
+    position: relative;
+    overflow: hidden; /* Empêche le contenu de déborder */
+  }
+
+#reliable{
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #4AB4DB;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+#cyber{
+    font-family: RobotoBold;
+    color: white;
+    font-size: 40px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+#cyber-bis{
+    font-family: RobotoBold;
+    color: white;
+    font-size: 60px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#tempore{
+    font-family: RobotoRegular;
+    line-height: 1.5em;
+    font-size: 15px;
+    color: #6071B6;
+    line-height: 25px;
+}
+
+/* Styles pour les cercles progressants */
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid #3498db; /* Couleur du cercle */
+    margin: 20px; /* Marge entre les cercles */
+    position: relative;
+  }
+
+  .progress-circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px; /* Taille du texte */
+    color: #3498db; /* Couleur du texte */
+    font-family: OswalRegular;
+    font-size: 30px;
+    color: white;
+
+  }
+
+  #cercle{
+    display: flex;
+  }
+
+  #title-circle{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-family: RobotoBold;
+    margin-top: -15px;
+  }
+
+  #creative{
+    position: absolute; top: 495px; right: 0px;
+    height: 305px;
+    width: 475px;
+    background-color: #34D3EF;
+    border-top-left-radius: 10px;
+}
+
+#creative-flex p:nth-of-type(1){
+    color: white;
+    font-family: RobotoBold;
+    font-size: 18px;
+    margin-bottom: -5px;
+    
+}
+
+#creative-flex p:nth-of-type(2){
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#creative-flex p:nth-of-type(3){
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+#creative-flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#creative-flex-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#section7{
+    background-image: url(../assets/img/overly-img.png);
+    background-position: center;
+    background-color: #121F61;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#section7-left{
+    width: 49.7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#section7-right{
+    width: 50%;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#image-2{
+    /* background-color: red;
+    height: 550px;
+    width: 550px;     */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#image-4{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+#global-flex{
+    background-color: #17246E;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#service{
+    background-color: #17246E;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers{
+    font-family: OswalMedium;
+    font-size: 35px;
+    color: white;
+}
+
+#gp{
+    font-family: RobotoRegular;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #6071B6;
+}
+
+#img-cs{
+    margin-bottom: -20px;
+}
+
+#emplacement-section7{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-right: 15px;
+}
+
+#tempore-bis{
+    font-size: 20px;
+    font-family: RobotoRegular;
+    color: #6071B6;
+    line-height: 30px;
+    margin-bottom: 5%;
+
+}
+
+#back-right-bis{
+    margin-top: -50px;
+}
+
+#section8{
+    background-color: #0B1650;
+    height: 790px;
+    width: 100%;
+    display: flex;
+}
+
+#section8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-blog{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+#img-blog1 {
+    position: relative;
+    overflow: hidden; /* Empêche le contenu de déborder */
+  }
+
+  #img-blog2 {
+    position: relative;
+    overflow: hidden; /* Empêche le contenu de déborder */
+  }
+  
+
+  #div-trend-all {
+    position: absolute;
+    top: 290px;
+    left: 35px;
+    color: #fff;
+  }
+
+  #div-trend-all-bis{
+    position: absolute;
+    top: 290px;
+    left: 35px;
+    color: white;
+  }
+
+#trend{
+    font-family: RobotoRegular;
+    font-size: 16px;
+    color: #ADBCC3;
+}
+
+#trend:hover{
+    color: #00D2EE;
+}
+
+#protect{
+    font-family: RobotoRegular;
+    font-size: 27px;
+    line-height: 1.3em
+}
+
+#protect:hover{
+    color: #00D2EE;
+}
+
+#read{
+    font-family: RobotoRegular;
+    line-height: 1em
+
+}
+
+#read:hover{
+    color: #00D2EE;
+}
+
+#section9{
+    margin-top: -14px;
+    background-color: #0B1650;
+    height: 650px;
+    width: 100%;
+}
+
+#section9-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#form-Name{
+    background-color: #0B1650;
+    border: 2px solid #15245E;
+    height: 38px;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+
+::placeholder{
+    color: #5869AC;
+    
+}
+
+#first3-form{
+    display: flex;
+    gap: 25px;
+}
+
+#form-Name-bis{
+    background-color: #0B1650;
+    border: 2px solid #15245E;
+    height: 100px;
+    width: 1002px;
+    border-radius: 5px;
+}
+
+input[placeholder="Name"]{
+    padding-left: 20px;
+}
+
+input[placeholder="Email"]{
+    padding-left: 20px;
+}
+
+input[placeholder="Phone"]{
+    padding-left: 20px;
+}
+
+input[placeholder="Message"]{
+    padding-left: 20px;
+}
+
+#message{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#img-dots-form{
+    display: flex;
+    justify-content: right;
+    margin-top: -320px;
+}
+
+#deplacement-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 130px;
+
+}
+
+#background-footer{
+    background-image: url(../assets/img/overly-img.png);
+    background-position: center;
+    background-color: #121F61;
+    height: 640px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-end{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: #5369AB;
+    font-family: RobotoRegular;
+    font-size: 15px;
+    height: 70px;
+    position: relative; top: 570px; right: 710px;
+}
+
+#border-foot{
+    border-top: 2px solid #243171;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin-top: 565px;
+}
+
+#footer-start{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 130px;
+    padding-left: 330px
+
+}
+
+#logo-svg{
+    display: flex;
+    gap: 25px;
+}
+
+#footer-p{
+    font-family: RobotoRegular;
+    color: #5369AB;
+}
+
+#footer-h1{
+    color: white;
+    font-family: RobotoMedium;
+    font-size: 18px;
+}
+
+#newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#email-checkbox-footer{
+    height: 45px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #1F2D6F;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+#submit-img{
+    position: absolute;
+    padding-left: 240px;
+    padding-top: 15px;
+}
+
+input[type="checkbox"]{
+    background-color: red;
+    border: 2px solid red;
+}
