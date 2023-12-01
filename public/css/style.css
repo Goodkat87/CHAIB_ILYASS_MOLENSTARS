@@ -34,6 +34,7 @@ header{
     background-image: url(./../assets/img/banner-overlay-img.png);
     background-size: cover;
     background-position: center;
+    background-position-y: -48.5px;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -77,8 +78,8 @@ nav ul{
 }
 
 button{
-    width: 140px;
-    height: 50px;
+    width: 139px;
+    height: 45px;
     background-color: #0bd2ef;
     border: #0bd2ef 1px solid;
     border-radius: 40px;
@@ -104,6 +105,7 @@ button{
     justify-content: center;
     align-items: end;
     gap: 20px;
+    margin-left: 180px;
 }
 
 .right{
@@ -146,6 +148,13 @@ button:hover, #contactDarkBlue:hover{
     background-color: transparent;
 }
 
+@media (max-width:1024px) {
+    .left{
+        margin-left: 0px;
+    }
+    
+}
+
 @media (max-width:769px) {
 
     #TitleOfHeader h1{
@@ -167,6 +176,23 @@ button:hover, #contactDarkBlue:hover{
     
 }
 @media (max-width:426px) {
+    #HeaderTop{
+        justify-content: center;
+    }
+
+    #logo{
+        width: 90%;
+        background-image: url(./../assets/img/menu.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        justify-content: start;
+        
+    }
+
+    nav{
+        width: 0%;
+        display: none;
+    }
 
     #TitleOfHeader h1{
         color: white;
@@ -303,13 +329,12 @@ button:hover, #contactDarkBlue:hover{
 }
 
 .sliders img{
-    width: 80px;
+    width: 50%;
     height: auto;
 }
 
 .sliders:hover{
     background-color: #0bd2ef;
-    
 }
 
 .sliders:hover img{
@@ -322,7 +347,7 @@ button:hover, #contactDarkBlue:hover{
 /* WhoWeAre Section*/
 
 #WhoWeAre{
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 100px;
     width: 100%;
     height: max-content;
@@ -334,7 +359,7 @@ button:hover, #contactDarkBlue:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1em;
+    gap: 4em;
 }
 
 #WhoLeft{
@@ -342,8 +367,8 @@ button:hover, #contactDarkBlue:hover{
     height: max-content;
 }
 #WhoLeft img{
-    width: 550px;
-    height: 500px;
+    width: 500px;
+    height: 430px;
 }
 
 #WhoRight{
@@ -354,13 +379,14 @@ button:hover, #contactDarkBlue:hover{
 #WhoRight h1{
     color: white;
     font-family: RobotoBold;
-    font-size: 51px;
+    font-size: 38px;
 }
 .WhoTextContent{
     color: white;
     font-size: 14px;
     font-family: RobotoRegular ;
     opacity: 50%;
+    line-height: 29px;
 }
 
 #WhoSubTitle{
@@ -458,7 +484,9 @@ button:hover, #contactDarkBlue:hover{
     margin-top: 0;
     padding-top: 0;
     font-family: RobotoBold;
-    font-size: 51px;
+    font-size: 45px;
+    line-height: 20px;
+    margin-top: 15px;
 }
 
 #WhatWeDoTitle p{
@@ -477,12 +505,14 @@ button:hover, #contactDarkBlue:hover{
 }
 
 #Card div{
-    padding: 20px;
+    padding: 30px;
+    padding-right: 50px;
     margin-bottom: 10px;
     background-color: #17256e;
     border-radius: 20px;
     width: max-content;
     height: 250px;
+    border: 1px solid #17256e;
 }
 
 #Card div h5{
@@ -506,6 +536,10 @@ button:hover, #contactDarkBlue:hover{
 
 #Card div:hover{
     border: 1px #0bd2ef solid;
+}
+
+#WhatWeDo button{
+    height: 40px;
 }
 
 @media (max-width:769px) {
