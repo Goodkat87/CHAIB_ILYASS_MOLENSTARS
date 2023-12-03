@@ -54,6 +54,8 @@ body{
 #section8{
     position: relative;
     overflow: hidden; /* Empêche le contenu de déborder */
+    display: flex;
+    flex-wrap: wrap;
   }
 
 #reliable{
@@ -310,6 +312,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 25px;
+    flex-wrap: wrap;
     
 }
 
