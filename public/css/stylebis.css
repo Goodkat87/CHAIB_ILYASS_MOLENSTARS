@@ -189,6 +189,8 @@ body{
     display: flex;
 }
 
+
+
 #section7-left{
     width: 49.7%;
     height: 100%;
@@ -442,6 +444,26 @@ form{
         margin-top: -20px;
         margin-left: -45px;
         border-radius: 5px;
+    }
+
+    #section7{
+        background-image: url(../assets/img/overly-img.png);
+        background-position: center;
+        background-color: #121F61;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #emplacement-section7{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 110px;
+        margin-bottom: 50px;
+        justify-content: center;
     }
     
     
