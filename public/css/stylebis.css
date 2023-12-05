@@ -463,7 +463,28 @@ form{
         margin-bottom: 50px;
         justify-content: center;
     }
-    
+
+    #img-blog-1{
+        height: 350px;
+        
+    }
+
+    #img-blog2{
+        height: 350px;
+        width: 375px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: left;
+        margin: 0px;
+        
+    }
+
+
+    #img-blog{
+        display: flex;
+        justify-content: left;
+    }
     
 }
 
