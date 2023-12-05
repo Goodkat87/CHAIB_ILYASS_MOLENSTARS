@@ -463,7 +463,11 @@ form{
         margin-bottom: 50px;
         justify-content: center;
     }
+    
+}
 
+
+@media (max-width:425px) {
     #img-blog-1{
         height: 350px;
         
@@ -485,9 +489,12 @@ form{
         display: flex;
         justify-content: left;
     }
+
+    #cyber-bis{
+        font-size: 23px;
+    }
     
 }
-
 
 input[placeholder="Name"]{
     padding-left: 20px;
